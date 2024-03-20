@@ -1,0 +1,25 @@
+graph TD
+
+DA[[5 Data Analytics Key Skills]]
+DA --> DP(Data Preparation)
+DA --> NC(Number Crunching)
+DA --> S(Storytelling)
+DA --> AQ(Asking Question)
+DA --> T(Tools)
+
+DP --> DS(Data Sources)
+DP --> DC(Data Cleaning)
+	DC --> Duplication & Blank-Error & Missing-Value
+DP --> CD(Combining Data)
+	CD --> Join-Merge & Appending & Intersections
+DP --> TF(Transformation)
+
+NC --> SA(Statistical Analysis)
+	SA --> Mean & Median & Mode & Distribution
+NC --> FA(Functional Analysis)
+	FA --> Industry-based-analysis
+NC --> AH(Ad-Hoc Analysis)
+	AH --> Output
+NC --> EA(Experimental Analysis)
+
+click DA "https://www.youtube.com/watch?v=gVr9f1GJdZc"
